@@ -1,101 +1,102 @@
 <!DOCTYPE html>
 <html lang="ro">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Servicii profesionale de montaj, igienizare și încărcare freon pentru aer condiționat. Lucrări cu factură, garanție și proces verbal. Contactează-l pe Sorin!">
-    <meta name="keywords"
-        content="montaj aer conditionat, igienizare aer conditionat, incarcare freon, reparatii aer conditionat, Sorin aer conditionat">
-    <meta name="author" content="Sorin Climatizare">
-
-    <title>Montaj și Servicii Aer Condiționat | Sorin</title>
-
-    <!-- FontAwesome pentru Iconițe -->
+    <meta name="description" content="Servicii profesionale de montaj, igienizare și încărcare freon aer condiționat. Sorin oferă garanție, factură și proces verbal de punere în funcțiune.">
+    <title>Sorin Climatizare | Montaj Aer Condiționat Profesionist</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <style>
+        /* CSS Extins pentru a asigura design-ul complet */
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; line-height: 1.6; color: #333; }
+        .container { max-width: 1200px; margin: auto; padding: 0 20px; }
+        .header { background: #fff; padding: 20px 0; border-bottom: 2px solid #007bff; position: sticky; top: 0; z-index: 1000; }
+        .nav-menu { display: flex; list-style: none; gap: 20px; }
+        .hero { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('ac-bg.jpg'); color: #fff; padding: 100px 0; text-align: center; }
+        .btn { padding: 15px 30px; background: #007bff; color: #fff; text-decoration: none; border-radius: 5px; font-weight: bold; }
+        .section { padding: 60px 0; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .card { padding: 20px; border: 1px solid #ddd; border-radius: 8px; transition: 0.3s; }
+        .card:hover { transform: translateY(-10px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+        .footer { background: #222; color: #fff; padding: 40px 0; text-align: center; }
+    </style>
 </head>
-
 <body>
 
-    <!-- --- HEADER --- -->
-    <header class="header" id="header">
-        <div class="container nav-container">
-            <a href="#acasa" class="logo">
-                <i class="fa-solid fa-fan logo-icon"></i>
-                <span>Sorin Climatizare</span>
-            </a>
+<header class="header">
+    <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+        <div class="logo"><h2><i class="fa-solid fa-snowflake"></i> Sorin Climatizare</h2></div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#acasa">Acasă</a></li>
+                <li><a href="#servicii">Servicii</a></li>
+                <li><a href="#proces">De ce noi?</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="tel:0775344621" class="btn"><i class="fa-solid fa-phone"></i> 0775 344 621</a>
+    </div>
+</header>
 
-            <nav class="nav-menu">
-                <a href="#acasa" class="nav-link">Acasă</a>
-                <a href="#servicii" class="nav-link">Servicii</a>
-                <a href="#contact" class="nav-link">Contact</a>
-            </nav>
+<section id="acasa" class="hero">
+    <div class="container">
+        <h1>Montaj Aer Condiționat - Serviciu Rapid & Profesional</h1>
+        <p>Garanție, Factură și Proces Verbal. Lucrez curat cu aspirator de praf și pompă de vacuum.</p>
+        <a href="#contact" class="btn" style="background: #28a745;">Solicită o Ofertă Acum</a>
+    </div>
+</section>
 
-            <div class="nav-btn">
-                <a href="tel:0775344621" class="btn btn-primary">
-                    <i class="fa-solid fa-phone"></i> 0775 344 621
-                </a>
+<section id="servicii" class="section">
+    <div class="container">
+        <h2 style="text-align: center;">Servicii Complete</h2>
+        <div class="grid">
+            <div class="card">
+                <h3><i class="fa-solid fa-screwdriver-wrench"></i> Montaj Standard</h3>
+                <p>Instalare completă pentru orice tip de unitate. Respectăm normele de siguranță.</p>
+            </div>
+            <div class="card">
+                <h3><i class="fa-solid fa-wind"></i> Igienizare Profesională</h3>
+                <p>Debacterizare completă și curățare pentru un aer sănătos.</p>
+            </div>
+            <div class="card">
+                <h3><i class="fa-solid fa-gauge-high"></i> Încărcare Freon</h3>
+                <p>Verificarea presiunii și completarea agentului frigorific.</p>
+            </div>
+            <div class="card">
+                <h3><i class="fa-solid fa-file-contract"></i> Acte Incluse</h3>
+                <p>Oferim Factură, Garanție și Proces Verbal de punere în funcțiune.</p>
             </div>
         </div>
-    </header>
+    </div>
+</section>
 
-    <!-- --- HERO SECTION --- -->
-    <section class="hero" id="acasa">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Montaj Aer Condiționat <span>Profesional</span></h1>
-                <p>Servicii rapide, cu garanție și factură inclusă! Folosim pompă de vacuum și aspirator de praf pentru un montaj curat.</p>
-                <div class="hero-buttons">
-                    <a href="tel:0775344621" class="btn btn-primary">
-                        <i class="fa-solid fa-phone"></i> Sună pe Sorin: 0775 344 621
-                    </a>
-                </div>
-            </div>
+<section id="proces" class="section" style="background: #f9f9f9;">
+    <div class="container">
+        <h2>De ce să alegi serviciile mele?</h2>
+        <ul>
+            <li><strong>Profesionalism:</strong> Peste 7 ani de experiență în domeniu.</li>
+            <li><strong>Curățenie:</strong> Folosesc aspirator industrial în timpul perforării pentru a proteja locuința ta.</li>
+            <li><strong>Tehnică modernă:</strong> Utilizarea pompei de vacuum este obligatorie pentru funcționarea optimă a aparatului.</li>
+            <li><strong>Transparență:</strong> Prețuri corecte, fără costuri ascunse.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <div class="container">
+        <h2 style="text-align: center;">Contactează-mă</h2>
+        <div style="max-width: 600px; margin: auto; background: #eee; padding: 30px; border-radius: 10px;">
+            <p><strong>Telefon:</strong> <a href="tel:0775344621">0775 344 621</a></p>
+            <p>Sunt disponibil pentru programări rapide în județ. Ofer seriozitate maximă.</p>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- --- SERVICII --- -->
-    <section class="section" id="servicii">
-        <div class="container">
-            <h2>Serviciile Noastre</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <i class="fa-solid fa-screwdriver-wrench"></i>
-                    <h3>Montaj Profesional</h3>
-                    <p>Instalare rapidă și eficientă. Lucrăm curat cu aspirator de praf și pompă de vacuum.</p>
-                </div>
-                <div class="service-card">
-                    <i class="fa-solid fa-wind"></i>
-                    <h3>Igienizare & Debacterizare</h3>
-                    <p>Curățare impecabilă pentru un aer sănătos în locuința ta.</p>
-                </div>
-                <div class="service-card">
-                    <i class="fa-solid fa-gauge-high"></i>
-                    <h3>Încărcare Freon</h3>
-                    <p>Verificarea și completarea agentului frigorific pentru eficiență maximă.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- --- CONTACT --- -->
-    <section class="section" id="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <div class="contact-info-card">
-                <h3>Sorin</h3>
-                <p><i class="fa-solid fa-phone"></i> Telefon: <a href="tel:0775344621">0775 344 621</a></p>
-                <p><i class="fa-solid fa-file-invoice"></i> Oferim Factură și Proces Verbal de punere în funcțiune.</p>
-                <p><i class="fa-solid fa-shield-halved"></i> Garanție pentru toate lucrările executate.</p>
-            </div>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <p>&copy; 2026 Sorin Climatizare. Toate drepturile rezervate.</p>
-    </footer>
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2026 Sorin Climatizare - Servicii Autorizate. Toate drepturile rezervate.</p>
+    </div>
+</footer>
 
 </body>
 </html>
